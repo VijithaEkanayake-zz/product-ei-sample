@@ -8,11 +8,11 @@
     <payloadFactory description="" media-type="json">
         <format>{
 			"Appointment Number": $6,
-			"Doctor":$7,
-			"patient":$1,
-			"actualFee":$2,
-			"discount":$3,
-			"discounted":$4,
+			"Doctor":"$7",
+			"patient":"$1",
+			"actualFee":"$2",
+			"discount":"$3",
+			"discounted":"$4",
 			"status":"$5",
 			"cancellation link" : "https://localhost:9445/bpmn-explorer/"
 			}</format>
