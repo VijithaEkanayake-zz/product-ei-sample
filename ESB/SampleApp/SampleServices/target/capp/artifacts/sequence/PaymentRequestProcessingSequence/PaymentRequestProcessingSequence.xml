@@ -28,12 +28,12 @@
     </payloadFactory>
     <property description="Get Payment Response" expression="json-eval($.)" name="payment_response" scope="default" type="STRING"/>
     <gmail.init>
-        <userId>wso2com@gmail.com</userId>
-        <accessToken>ya29.GlsVBOsCNGC6sBIzIWcbfRQyqeicjH_Cj1XphfIHoDUsY5d3GV2-T-HJBoSM58lTIvGdvZb4zqQVPUR5Q2Q-TfMCK-pHOa6TQo7LL3hQA-Zld7FNH_76Q745uG5p</accessToken>
-        <apiUrl>https://www.googleapis.com/gmail</apiUrl>
-        <clientId>28282151647-7v4o64nevnu74o54k0g4fkn989rdccij.apps.googleusercontent.com</clientId>
-        <clientSecret>SI29ttn6AzKxVkhOEyA8CIv4</clientSecret>
-        <refreshToken>1/Xmbg2hWhOvOtGtU9U3ERp-Cv6UmUxakXu037fMcyip5LNf4EEsWX_iJ2sgNnz18c</refreshToken>
+       <userId>wso2eidemo@gmail.com</userId>
+       <accessToken>ya29.GluKBN62WJ03eMs56qE6tuShKkghM9pkeqHGXoQd5NXBPKypx5bN2lbRCnru5QOLQXptPJd8C1jNpANasZJx1PHHP7-ERsI790wvIsNEFx3z9H_8CNLjmRbtsjUh</accessToken>
+       <apiUrl>https://www.googleapis.com/gmail</apiUrl>
+       <clientId>1082612450559-h5mmri14hua52ljrg9itvoldo6oqlg3b.apps.googleusercontent.com</clientId>
+       <clientSecret>ZgcJukj5PZ6SxWFBCfcFumPu</clientSecret>
+       <refreshToken>1/8SXWHtyh5b9eviHuDQbVt6xI-niXR-PRtepQXa3pdMc</refreshToken>
     </gmail.init>
     <gmail.sendMail>
         <to>{$ctx:email_id}</to>
